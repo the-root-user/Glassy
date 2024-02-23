@@ -1,0 +1,24 @@
+[Desktop Entry]
+Comment=A glassy theme for KDE
+
+Encoding=UTF-8
+Keywords=Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;
+Name=Glassy
+
+Type=Service
+
+X-KDE-ServiceTypes=Plasma/LookAndFeel
+X-KDE-ParentApp=
+X-KDE-PluginInfo-Author=Signore
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Email=
+X-KDE-PluginInfo-License=GPLv3
+X-KDE-PluginInfo-Name=Glassy
+X-KDE-PluginInfo-Version=20220623
+X-KDE-PluginInfo-Website=https://github.com/the-root-user/
+X-KDE-fallbackPackage=org.kde.breeze.desktop
+X-Plasma-MainScript=defaults
+X-Plasma-APIVersion=2
+X-KPackage-Dependencies=kns://colorschemes.knsrc/api.kde-look.org/1662810,kns://plasma-themes.knsrc/api.kde-look.org/1659120,kns://aurorae.knsrc/api.kde-look.org/1662814,kns://icons.knsrc/api.kde-look.org/1651940,kns://wallpaper.knsrc/api.kde-look.org/1662809,kns://latte-layouts.knsrc/api.kde-look.org/1659115,kns://sddmtheme.knsrc/api.kde-look.org/1801230
+
+
