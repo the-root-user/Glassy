@@ -5,7 +5,7 @@ A Glassy theme for KDE
 
 Includes some work from Community Artists.
 
-<!-- ![Cover](wallpapers/Glassy/HTB.png) -->
+<!-- ![Cover](wallpapers/Glassy/cover.png) -->
 
 ## How does it look
 
