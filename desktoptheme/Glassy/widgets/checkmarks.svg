@@ -32,7 +32,7 @@
      id="nova">
     <style
        id="current-color-scheme"
-       type="text/css">&#10;   .ColorScheme-Background {color:#181818; } .ColorScheme-ButtonBackground { color:#343434; } .ColorScheme-Highlight { color:#4285f4; } .ColorScheme-Text { color:#dfdfdf; } .ColorScheme-ViewBackground { color:#242424; } .ColorScheme-NegativeText { color:#f44336; } .ColorScheme-PositiveText { color:#4caf50; } .ColorScheme-NeutralText { color:#ff9800; }&#10;  </style>
+       type="text/css">&#10;   .ColorScheme-Background {color:#181818; } .ColorScheme-ButtonBackground { color:#343434; } .ColorScheme-Highlight { color:#3c5fff; } .ColorScheme-Text { color:#dfdfdf; } .ColorScheme-ViewBackground { color:#242424; } .ColorScheme-NegativeText { color:#f44336; } .ColorScheme-PositiveText { color:#4caf50; } .ColorScheme-NeutralText { color:#ff9800; }&#10;  </style>
   </defs>
   <g
      id="radiobutton"
@@ -66,7 +66,7 @@
        y="-8"
        id="rect2" />
     <rect
-       style="display:inline;fill:#4285f4;fill-opacity:1;stroke-width:1.69077"
+       style="display:inline;fill:#3c5fff;fill-opacity:1;stroke-width:1.69077"
        id="rect5"
        width="28"
        height="28"

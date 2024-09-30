@@ -2,7 +2,7 @@
 author=Signore
 comment=Glassy
 alt_mnemonic=true
-animate_states=true
+animate_states=false
 attach_active_tab=false
 blurring=true
 button_contents_shift=false
@@ -77,12 +77,12 @@ tooltip_blur_radius=10
 
 [GeneralColors]
 alt.base.color=#2e2e33
-base.color=#111928
-button.color=#111928
+base.color=#1a1b1e
+button.color=#1a1b1e
 button.text.color=#dfdfdf
 dark.color=#0d0d0d
 disabled.text.color=#dfdfdf7e
-highlight.color=#5657f5
+highlight.color=#3c5fff
 highlight.text.color=#efefef
 inactive.highlight.color=#dfdfdf
 light.color=#48484f
@@ -93,7 +93,7 @@ mid.light.color=#dfdfdf1e
 progress.indicator.text.color=#dfdfdf
 text.color=#dfdfdf
 tooltip.text.color=#dfdfdf
-window.color=#111928
+window.color=#1a1b1e
 window.text.color=#dfdfdf
 
 [Hacks]

@@ -176,7 +176,7 @@
        gradientUnits="userSpaceOnUse" />
     <style
        id="current-color-scheme"
-       type="text/css"> .ColorScheme-Background {color:#111928; } .ColorScheme-ButtonBackground { color:#111928; } .ColorScheme-Highlight { color:#4285f4; } .ColorScheme-Text { color:#dfdfdf; } .ColorScheme-ViewBackground { color:#111928; } .ColorScheme-NegativeText { color:#f44336; } .ColorScheme-PositiveText { color:#4caf50; } .ColorScheme-NeutralText { color:#ff9800; }
+       type="text/css"> .ColorScheme-Background {color:#1a1b1e; } .ColorScheme-ButtonBackground { color:#111928; } .ColorScheme-Highlight { color:#4285f4; } .ColorScheme-Text { color:#ffffff; } .ColorScheme-ViewBackground { color:#111928; } .ColorScheme-NegativeText { color:#f44336; } .ColorScheme-PositiveText { color:#4caf50; } .ColorScheme-NeutralText { color:#ff9800; }
     </style>
     <linearGradient
        inkscape:collect="always"
@@ -346,7 +346,7 @@
      id="center">
     <rect
        id="center1"
-       style="fill:#111928;opacity:0.75;fill-opacity:1"
+       style="fill:currentColor;opacity:0.75;fill-opacity:1"
        class="ColorScheme-Background"
        width="80"
        height="80"
@@ -365,7 +365,7 @@
      id="top">
     <rect
        id="top1"
-       style="fill:#111928;opacity:0.75;fill-opacity:1"
+       style="fill:currentColor;opacity:0.75;fill-opacity:1"
        class="ColorScheme-Background"
        width="80"
        height="24"
@@ -390,15 +390,15 @@
        transform="scale(-1,1)" />
     <path
        id="rect3"
-       style="fill:#ffffff;opacity:1;fill-opacity:0.07"
-       class="ColorScheme-Background"
+       style="fill:currentColor;opacity:1;fill-opacity:0.12"
+       class="ColorScheme-Text"
        d="M 174 10 L 174 11 L 254 11 L 254 10 L 174 10 z " />
   </g>
   <g
      id="topleft">
     <path
        id="topleft1"
-       style="fill:#111928;opacity:0.75;fill-opacity:1"
+       style="fill:currentColor;opacity:0.75;fill-opacity:1"
        class="ColorScheme-Background"
        d="m 174,34 h -24 c 0,-13.25483 10.74517,-24 24,-24 z" />
     <path
@@ -413,15 +413,15 @@
        d="M 174,34 V 10 c -13.25483,0 -24,10.74517 -24,24 z" />
     <path
        id="path2"
-       style="fill:#ffffff;opacity:1;fill-opacity:0.07"
-       class="ColorScheme-Background"
+       style="fill:currentColor;opacity:1;fill-opacity:0.12"
+       class="ColorScheme-Text"
        d="M 174 10 C 160.74518 10 150 20.745183 150 34 L 151.02539 34 C 151.53689 21.541963 161.54196 11.536892 174 11.025391 L 174 10 z " />
   </g>
   <g
      id="bottom">
     <rect
        id="bottom1"
-       style="fill:#111928;opacity:0.75;fill-opacity:1"
+       style="fill:currentColor;opacity:0.75;fill-opacity:1"
        class="ColorScheme-Background"
        width="80"
        height="24"
@@ -448,8 +448,8 @@
        transform="scale(-1)" />
     <path
        id="rect7"
-       style="fill:#ffffff;opacity:1;fill-opacity:0.07"
-       class="ColorScheme-Background"
+       style="fill:currentColor;opacity:1;fill-opacity:0.12"
+       class="ColorScheme-Text"
        d="M 174 -137 L 174 -138 L 254 -138 L 254 -137 L 174 -137 z "
        transform="scale(1,-1)" />
   </g>
@@ -457,7 +457,7 @@
      id="left">
     <rect
        id="left1"
-       style="fill:#111928;opacity:0.75;fill-opacity:1"
+       style="fill:currentColor;opacity:0.75;fill-opacity:1"
        class="ColorScheme-Background"
        width="80"
        height="24"
@@ -484,8 +484,8 @@
        transform="matrix(0,1,1,0,0,0)" />
     <path
        id="rect4"
-       style="fill:#ffffff;opacity:1;fill-opacity:0.07"
-       class="ColorScheme-Background"
+       style="fill:currentColor;opacity:1;fill-opacity:0.12"
+       class="ColorScheme-Text"
        d="M 34 -150 L 114 -150 L 114 -151 L 34 -151 L 34 -150 z "
        transform="rotate(90)" />
   </g>
@@ -493,7 +493,7 @@
      id="bottomleft">
     <path
        id="bottomleft1"
-       style="fill:#111928;opacity:0.75;fill-opacity:1"
+       style="fill:currentColor;opacity:0.75;fill-opacity:1"
        class="ColorScheme-Background"
        d="m 174,113.99999 h -24 c 0,13.25484 10.74517,24 24,24 z" />
     <path
@@ -508,15 +508,15 @@
        d="m 174,113.99999 h -24 c 0,13.25483 10.74517,24 24,24 z" />
     <path
        id="path9"
-       style="fill:#ffffff;opacity:1;fill-opacity:0.07"
-       class="ColorScheme-Background"
+       style="fill:currentColor;opacity:1;fill-opacity:0.12"
+       class="ColorScheme-Text"
        d="M 150 114 C 150 127.25483 160.74518 138 174 138 L 174 136.97461 C 161.54196 136.46311 151.53689 126.45805 151.02539 114 L 150 114 z " />
   </g>
   <g
      id="topright">
     <path
        id="topright1"
-       style="fill:#111928;opacity:0.75;fill-opacity:1"
+       style="fill:currentColor;opacity:0.75;fill-opacity:1"
        class="ColorScheme-Background"
        d="m 254,34 h 24 C 278,20.74517 267.25483,10 254,10 Z" />
     <path
@@ -531,15 +531,15 @@
        d="m 254,34 h 24 C 278,20.74517 267.25483,10 254,10 Z" />
     <path
        id="path1"
-       style="fill:#ffffff;opacity:1;fill-opacity:0.07"
-       class="ColorScheme-Background"
+       style="fill:currentColor;opacity:1;fill-opacity:0.12"
+       class="ColorScheme-Text"
        d="M 254 10 L 254 11.025391 C 266.45804 11.536892 276.46311 21.541963 276.97461 34 L 278 34 C 278 20.745183 267.25482 10 254 10 z " />
   </g>
   <g
      id="right">
     <rect
        id="right1"
-       style="fill:#111928;opacity:0.75;fill-opacity:1"
+       style="fill:currentColor;opacity:0.75;fill-opacity:1"
        class="ColorScheme-Background"
        width="80"
        height="24"
@@ -566,8 +566,8 @@
        transform="matrix(0,-1,-1,0,0,0)" />
     <path
        id="rect5"
-       style="fill:#ffffff;opacity:1;fill-opacity:0.07"
-       class="ColorScheme-Background"
+       style="fill:currentColor;opacity:1;fill-opacity:0.12"
+       class="ColorScheme-Text"
        d="M 34 277 L 114 277 L 114 278 L 34 278 L 34 277 z "
        transform="matrix(0,1,1,0,0,0)" />
   </g>
@@ -575,7 +575,7 @@
      id="bottomright">
     <path
        id="bottomright1"
-       style="fill:#111928;opacity:0.75;fill-opacity:1"
+       style="fill:currentColor;opacity:0.75;fill-opacity:1"
        class="ColorScheme-Background"
        d="m 254,113.99999 h 24 C 278,127.25483 267.25483,138 254,138 Z" />
     <path
@@ -590,8 +590,8 @@
        d="m 254,113.99999 v 24 c 13.25483,0 24,-10.74518 24,-24 z" />
     <path
        id="path8"
-       style="fill:#ffffff;opacity:1;fill-opacity:0.07"
-       class="ColorScheme-Background"
+       style="fill:currentColor;opacity:1;fill-opacity:0.12"
+       class="ColorScheme-Text"
        d="M 276.97461 114 C 276.46311 126.45805 266.45804 136.46311 254 136.97461 L 254 138 C 267.25482 138 278 127.25483 278 114 L 276.97461 114 z " />
   </g>
   <rect

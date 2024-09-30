@@ -35,7 +35,7 @@
        id="linearGradient35"
        inkscape:collect="always">
       <stop
-         style="stop-color:#111928;stop-opacity:0;"
+         style="stop-color:#1a1b1e;stop-opacity:0;"
          offset="0"
          id="stop35" />
       <stop
@@ -51,7 +51,7 @@
          offset="0"
          id="stop29" />
       <stop
-         style="stop-color:#111928;stop-opacity:0;"
+         style="stop-color:#1a1b1e;stop-opacity:0;"
          offset="1"
          id="stop28" />
     </linearGradient>
@@ -189,7 +189,8 @@
     <style
        id="current-color-scheme"
        type="text/css">
-   .ColorScheme-Background {color:#242424; } .ColorScheme-ButtonBackground { color:#343434; } .ColorScheme-Highlight { color:#4285f4; } .ColorScheme-Text { color:#dfdfdf; } .ColorScheme-ViewBackground { color:#242424; } .ColorScheme-NegativeText { color:#f44336; } .ColorScheme-PositiveText { color:#4caf50; } .ColorScheme-NeutralText { color:#ff9800; }
+       .ColorScheme-Background {color:#1a1b1e; }
+       .ColorScheme-ButtonBackground { color:#343434; } .ColorScheme-Highlight { color:#3c5fff; } .ColorScheme-Text { color:#ffffff; } .ColorScheme-ViewBackground { color:#242424; } .ColorScheme-NegativeText { color:#f44336; } .ColorScheme-PositiveText { color:#4caf50; } .ColorScheme-NeutralText { color:#ff9800; }
   </style>
     <linearGradient
        inkscape:collect="always"
@@ -419,7 +420,7 @@
      id="center">
     <rect
        id="center1"
-       style="fill:#111928;fill-opacity:1;opacity:0.7"
+       style="fill:currentColor;fill-opacity:1;opacity:0.7"
        class="ColorScheme-Background"
        width="80"
        height="80"
@@ -427,8 +428,8 @@
        y="34" />
     <rect
        id="rect20"
-       style="display:inline;opacity:0.05;fill:#ffffff;fill-opacity:1"
-       class="ColorScheme-Background"
+       style="display:inline;opacity:0.12;fill:currentColor;fill-opacity:1"
+       class="ColorScheme-Text"
        width="80"
        height="80"
        x="174"
@@ -446,7 +447,7 @@
      id="top">
     <rect
        id="top1"
-       style="fill:#111928;fill-opacity:1;opacity:0.7"
+       style="fill:currentColor;fill-opacity:1;opacity:0.7"
        class="ColorScheme-Background"
        width="80"
        height="24"
@@ -463,16 +464,16 @@
        transform="scale(-1,1)" />
     <rect
        id="rect21"
-       style="fill:#ffffff;fill-opacity:1;opacity:0.05"
-       class="ColorScheme-Background"
+       style="fill:currentColor;fill-opacity:1;opacity:0.12"
+       class="ColorScheme-Text"
        width="80"
        height="24"
        x="174"
        y="10" />
     <path
        id="rect3-6-1"
-       style="color:#111928;fill:#ffffff;fill-opacity:0.05"
-       class="ColorScheme-Background"
+       style="fill:currentColor;fill-opacity:0.12"
+       class="ColorScheme-Text"
        d="m 174,10 v 1 h 80 v -1 z" />
     <rect
        id="top2"
@@ -487,7 +488,7 @@
      id="topleft">
     <path
        id="topleft1"
-       style="fill:#111928;fill-opacity:1;opacity:0.7"
+       style="fill:currentColor;fill-opacity:1;opacity:0.7"
        class="ColorScheme-Background"
        d="m 174,34 h -24 c 0,-13.25483 10.74517,-24 24,-24 z" />
     <path
@@ -497,13 +498,13 @@
        d="M 174,34 V 10 c -13.25483,0 -24,10.74517 -24,24 z" />
     <path
        id="path21"
-       style="fill:#ffffff;fill-opacity:1;opacity:0.05"
-       class="ColorScheme-Background"
+       style="fill:currentColor;fill-opacity:1;opacity:0.12"
+       class="ColorScheme-Text"
        d="m 174,34 h -24 c 0,-13.25483 10.74517,-24 24,-24 z" />
     <path
        id="path2-5-0"
-       style="color:#111928;fill:#ffffff;fill-opacity:0.05"
-       class="ColorScheme-Background"
+       style="fill:currentColor;fill-opacity:0.12"
+       class="ColorScheme-Text"
        d="m 174,10 c -13.25482,0 -24,10.745183 -24,24 h 1.02539 C 151.53689,21.541963 161.54196,11.536892 174,11.025391 Z" />
     <path
        id="topleft2"
@@ -515,7 +516,7 @@
      id="bottom">
     <rect
        id="bottom1"
-       style="fill:#111928;fill-opacity:1;opacity:0.7"
+       style="fill:currentColor;fill-opacity:1;opacity:0.7"
        class="ColorScheme-Background"
        width="80"
        height="24"
@@ -533,8 +534,8 @@
        transform="scale(1,-1)" />
     <rect
        id="rect22"
-       style="fill:#ffffff;fill-opacity:1;opacity:0.05"
-       class="ColorScheme-Background"
+       style="fill:currentColor;fill-opacity:1;opacity:0.12"
+       class="ColorScheme-Text"
        width="80"
        height="24"
        x="174"
@@ -542,8 +543,8 @@
        transform="scale(1,-1)" />
     <path
        id="rect7-7"
-       style="color:#111928;fill:#ffffff;fill-opacity:0.05"
-       class="ColorScheme-Background"
+       style="fill:currentColor;fill-opacity:0.12"
+       class="ColorScheme-Text"
        d="m 174,137 v 1 h 80 v -1 z" />
     <rect
        id="bottom2"
@@ -559,7 +560,7 @@
      id="left">
     <rect
        id="left1"
-       style="fill:#111928;fill-opacity:1;opacity:0.7"
+       style="fill:currentColor;fill-opacity:1;opacity:0.7"
        class="ColorScheme-Background"
        width="80"
        height="24"
@@ -577,8 +578,8 @@
        transform="matrix(0,1,1,0,0,0)" />
     <rect
        id="rect23"
-       style="fill:#ffffff;fill-opacity:1;opacity:0.05"
-       class="ColorScheme-Background"
+       style="fill:currentColor;fill-opacity:1;opacity:0.12"
+       class="ColorScheme-Text"
        width="80"
        height="24"
        x="34"
@@ -586,8 +587,8 @@
        transform="rotate(90)" />
     <path
        id="rect4-0-2"
-       style="color:#111928;fill:#ffffff;fill-opacity:0.05"
-       class="ColorScheme-Background"
+       style="fill:currentColor;fill-opacity:0.12"
+       class="ColorScheme-Text"
        d="m 150,34 v 80 h 1 V 34 Z" />
     <rect
        id="left2"
@@ -603,7 +604,7 @@
      id="bottomleft">
     <path
        id="bottomleft1"
-       style="fill:#111928;fill-opacity:1;opacity:0.7"
+       style="fill:currentColor;fill-opacity:1;opacity:0.7"
        class="ColorScheme-Background"
        d="m 174,113.99999 h -24 c 0,13.25484 10.74517,24 24,24 z" />
     <path
@@ -613,13 +614,13 @@
        d="m 174,113.99999 h -24 c 0,13.25483 10.74517,24 24,24 z" />
     <path
        id="path23"
-       style="fill:#ffffff;fill-opacity:1;opacity:0.05"
-       class="ColorScheme-Background"
+       style="fill:currentColor;fill-opacity:1;opacity:0.12"
+       class="ColorScheme-Text"
        d="m 174,113.99999 h -24 c 0,13.25484 10.74517,24 24,24 z" />
     <path
        id="path9-8"
-       style="color:#111928;fill:#ffffff;fill-opacity:0.05"
-       class="ColorScheme-Background"
+       style="fill:currentColor;fill-opacity:0.12"
+       class="ColorScheme-Text"
        d="m 150,113.99999 c 0,13.25483 10.74518,24 24,24 v -1.02539 c -12.45804,-0.5115 -22.46311,-10.51656 -22.97461,-22.97461 z" />
     <path
        id="bottomleft2"
@@ -631,7 +632,7 @@
      id="topright">
     <path
        id="topright1"
-       style="fill:#111928;fill-opacity:1;opacity:0.7"
+       style="fill:currentColor;fill-opacity:1;opacity:0.7"
        class="ColorScheme-Background"
        d="m 254,34 h 24 C 278,20.74517 267.25483,10 254,10 Z" />
     <path
@@ -641,13 +642,13 @@
        d="m 254,34 h 24 C 278,20.74517 267.25483,10 254,10 Z" />
     <path
        id="path24"
-       style="fill:#ffffff;fill-opacity:1;opacity:0.05"
-       class="ColorScheme-Background"
+       style="fill:currentColor;fill-opacity:1;opacity:0.12"
+       class="ColorScheme-Text"
        d="m 254,34 h 24 C 278,20.74517 267.25483,10 254,10 Z" />
     <path
        id="path1-5"
-       style="color:#111928;fill:#ffffff;fill-opacity:0.05"
-       class="ColorScheme-Background"
+       style="fill:currentColor;fill-opacity:0.12"
+       class="ColorScheme-Text"
        d="m 254,10 v 1.025391 C 266.45804,11.536892 276.46311,21.541963 276.97461,34 H 278 C 278,20.745183 267.25482,10 254,10 Z" />
     <path
        id="topright2"
@@ -659,7 +660,7 @@
      id="right">
     <rect
        id="right1"
-       style="display:inline;opacity:0.7;fill:#111928;fill-opacity:1"
+       style="display:inline;opacity:0.7;fill:currentColor;fill-opacity:1"
        class="ColorScheme-Background"
        width="80"
        height="24"
@@ -677,8 +678,8 @@
        transform="matrix(0,-1,-1,0,0,0)" />
     <rect
        id="rect24"
-       style="display:inline;opacity:0.05;fill:#ffffff;fill-opacity:1"
-       class="ColorScheme-Background"
+       style="display:inline;opacity:0.12;fill:currentColor;fill-opacity:1"
+       class="ColorScheme-Text"
        width="80"
        height="24"
        x="34"
@@ -686,8 +687,8 @@
        transform="matrix(0,1,1,0,0,0)" />
     <path
        id="rect5-6-7"
-       style="color:#111928;fill:#ffffff;fill-opacity:0.05"
-       class="ColorScheme-Background"
+       style="fill:currentColor;fill-opacity:0.12"
+       class="ColorScheme-Text"
        d="m 277,34 v 80 h 1 V 34 Z" />
     <rect
        id="right2"
@@ -703,7 +704,7 @@
      id="bottomright">
     <path
        id="bottomright1"
-       style="fill:#111928;fill-opacity:1;opacity:0.7"
+       style="fill:currentColor;fill-opacity:1;opacity:0.7"
        class="ColorScheme-Background"
        d="m 254,113.99999 h 24 C 278,127.25483 267.25483,138 254,138 Z" />
     <path
@@ -713,13 +714,13 @@
        d="m 254,114 v 24 c 13.25483,0 24,-10.74518 24,-24 z" />
     <path
        id="path25"
-       style="fill:#ffffff;fill-opacity:1;opacity:0.05"
-       class="ColorScheme-Background"
+       style="fill:currentColor;fill-opacity:1;opacity:0.12"
+       class="ColorScheme-Text"
        d="m 254,113.99999 h 24 C 278,127.25483 267.25483,138 254,138 Z" />
     <path
        id="path8-4"
-       style="color:#111928;fill:#ffffff;fill-opacity:0.05"
-       class="ColorScheme-Background"
+       style="fill:currentColor;fill-opacity:0.12"
+       class="ColorScheme-Text"
        d="M 276.97461,114 C 276.46311,126.45805 266.45804,136.46311 254,136.97461 V 138 c 13.25482,0 24,-10.74517 24,-24 z" />
     <path
        id="bottomright2"
@@ -732,7 +733,7 @@
      transform="translate(-157.99999,-15)">
     <rect
        id="rect17"
-       style="color:#111928;opacity:1;fill-opacity:1;fill:#000000"
+       style="color:currentColor;opacity:1;fill-opacity:1;fill:#000000"
        class="ColorScheme-Background"
        width="80"
        height="24"
@@ -745,7 +746,7 @@
      transform="translate(-4.999999,3)">
     <path
        id="path22"
-       style="color:#111928;opacity:1;fill-opacity:1;fill:#000000"
+       style="color:currentColor;opacity:1;fill-opacity:1;fill:#000000"
        class="ColorScheme-Background"
        d="m -131.14023,34 h -24 c 0,-13.25483 10.74517,-24 24,-24 z"
        transform="translate(162.14022,-3)" />
@@ -755,7 +756,7 @@
      transform="translate(157.14022)">
     <rect
        id="rect25"
-       style="color:#111928;opacity:1;fill-opacity:1;fill:#000000"
+       style="color:currentColor;opacity:1;fill-opacity:1;fill:#000000"
        class="ColorScheme-Background"
        width="80"
        height="24"
@@ -768,7 +769,7 @@
      transform="translate(157.14022)">
     <path
        id="path26"
-       style="color:#111928;opacity:1;fill-opacity:1;fill:#000000"
+       style="color:currentColor;opacity:1;fill-opacity:1;fill:#000000"
        class="ColorScheme-Background"
        d="m -131.14023,114 h -24 c 0,13.25484 10.74517,24 24,24 z" />
   </g>
@@ -777,7 +778,7 @@
      transform="translate(157.14022)">
     <rect
        id="rect26"
-       style="color:#111928;opacity:1;fill-opacity:1;fill:#000000"
+       style="color:currentColor;opacity:1;fill-opacity:1;fill:#000000"
        class="ColorScheme-Background"
        width="80"
        height="24"
@@ -790,7 +791,7 @@
      transform="translate(157.14022)">
     <rect
        id="rect16"
-       style="color:#111928;display:inline;opacity:1;fill-opacity:1;fill:#000000"
+       style="color:currentColor;display:inline;opacity:1;fill-opacity:1;fill:#000000"
        class="ColorScheme-Background"
        width="80"
        height="80"
@@ -802,7 +803,7 @@
      transform="translate(157.14022)">
     <path
        id="path27"
-       style="color:#111928;opacity:1;fill-opacity:1;fill:#000000"
+       style="color:currentColor;opacity:1;fill-opacity:1;fill:#000000"
        class="ColorScheme-Background"
        d="m -51.140228,34 h 24 c 0,-13.25483 -10.74517,-24 -24,-24 z" />
   </g>
@@ -811,7 +812,7 @@
      transform="matrix(-0.99999997,0,0,1,290,-15)">
     <rect
        id="rect27"
-       style="color:#111928;opacity:1;fill-opacity:1;fill:#000000"
+       style="color:currentColor;opacity:1;fill-opacity:1;fill:#000000"
        class="ColorScheme-Background"
        width="80"
        height="24"
@@ -824,7 +825,7 @@
      transform="translate(157.14022)">
     <path
        id="path28"
-       style="color:#111928;opacity:1;fill-opacity:1;fill:#000000"
+       style="color:currentColor;opacity:1;fill-opacity:1;fill:#000000"
        class="ColorScheme-Background"
        d="m -51.140228,114 h 24 c 0,13.25484 -10.74517,24.00001 -24,24.00001 z" />
   </g>

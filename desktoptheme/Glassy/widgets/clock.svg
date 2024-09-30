@@ -43,11 +43,11 @@
        snapvisiblegridlinesonly="false"
        enabled="false" /></sodipodi:namedview><style
      type="text/css"
-     id="current-color-scheme">&#10;     .ColorScheme-Text {  color:#dfdfef; }&#10;     .ColorScheme-Background { color:#111928; }&#10;     .ColorScheme-Highlight { color:#3476CF; }&#10;     .ColorScheme-ButtonText { color:#dfdfef; }&#10;     .ColorScheme-ButtonBackground { color:#efefef; }&#10;     .ColorScheme-ButtonHover { color:#9abbe7; }&#10;     .ColorScheme-ButtonFocus{ color:#3476CF; }&#10;  </style><defs
+     id="current-color-scheme">&#10;     .ColorScheme-Text {  color:#dfdfef; }&#10;     .ColorScheme-Background { color:#1a1b1e; }&#10;     .ColorScheme-Highlight { color:#3476CF; }&#10;     .ColorScheme-ButtonText { color:#dfdfef; }&#10;     .ColorScheme-ButtonBackground { color:#efefef; }&#10;     .ColorScheme-ButtonHover { color:#9abbe7; }&#10;     .ColorScheme-ButtonFocus{ color:#3476CF; }&#10;  </style><defs
      id="defs12"><linearGradient
        id="linearGradient1"
        inkscape:collect="always"><stop
-         style="stop-color:#111928;stop-opacity:0;"
+         style="stop-color:#1a1b1e;stop-opacity:0;"
          offset="0"
          id="stop1" /><stop
          style="stop-color:#ffffff;stop-opacity:0.05;"

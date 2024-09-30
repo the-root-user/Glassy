@@ -33,7 +33,7 @@
     </linearGradient>
     <style
        id="current-color-scheme"
-       type="text/css">&#10;       .ColorScheme-Background {color:#181818; }&#10;       .ColorScheme-ButtonBackground { color:#343434; }&#10;       .ColorScheme-Highlight { color:#4285f4; }&#10;       .ColorScheme-Text { color:#dfdfdf; }&#10;       .ColorScheme-ViewBackground { color:#242424; }&#10;       .ColorScheme-NegativeText { color:#f44336; }&#10;       .ColorScheme-PositiveText { color:#4caf50; }&#10;       .ColorScheme-NeutralText { color:#ff9800; }&#10;    </style>
+       type="text/css">&#10;       .ColorScheme-Background {color:#181818; }&#10;       .ColorScheme-ButtonBackground { color:#343434; }&#10;       .ColorScheme-Highlight { color:#3c5fff; }&#10;       .ColorScheme-Text { color:#dfdfdf; }&#10;       .ColorScheme-ViewBackground { color:#242424; }&#10;       .ColorScheme-NegativeText { color:#f44336; }&#10;       .ColorScheme-PositiveText { color:#4caf50; }&#10;       .ColorScheme-NeutralText { color:#ff9800; }&#10;    </style>
     <linearGradient
        id="linearGradient4947">
       <stop

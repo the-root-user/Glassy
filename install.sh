@@ -134,7 +134,7 @@ if [[ "$REPLY" =~ ^[y/Y]$ ]]; then
     echo -ne "├─ Applying theme"
     sleep 0.3; echo -ne ".";
     lookandfeeltool -a Glassy 2>/dev/null
-    plasma-apply-wallpaperimage $walls_dir/Glassy/contents/images/1920x1080.jpg 1>/dev/null
+    plasma-apply-wallpaperimage $walls_dir/Glassy/contents/images/2400x1350.jpg 1>/dev/null
     sleep 0.3; echo -ne ".";
     if [[ "$kvantum" == true ]]; then
         echo -e "[General]\ntheme=Glassy" > $HOME/.config/Kvantum/kvantum.kvconfig; fi

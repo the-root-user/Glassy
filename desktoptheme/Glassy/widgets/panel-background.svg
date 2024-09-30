@@ -114,7 +114,7 @@
        xlink:href="#linearGradient1278" />
     <style
        id="current-color-scheme"
-       type="text/css">&#10;   .ColorScheme-Background {color:#242424; } .ColorScheme-ButtonBackground { color:#343434; } .ColorScheme-Highlight { color:#4285f4; } .ColorScheme-Text { color:#dfdfdf; } .ColorScheme-ViewBackground { color:#242424; } .ColorScheme-NegativeText { color:#f44336; } .ColorScheme-PositiveText { color:#4caf50; } .ColorScheme-NeutralText { color:#ff9800; }&#10;  </style>
+       type="text/css">&#10;   .ColorScheme-Background {color:#1a1b1e; } .ColorScheme-ButtonBackground { color:#343434; } .ColorScheme-Highlight { color:#3c5fff; } .ColorScheme-Text { color:#dfdfdf; } .ColorScheme-ViewBackground { color:#242424; } .ColorScheme-NegativeText { color:#f44336; } .ColorScheme-PositiveText { color:#4caf50; } .ColorScheme-NeutralText { color:#ff9800; }&#10;  </style>
   </defs>
   <path
      id="shadow-topleft"
@@ -217,7 +217,7 @@
      transform="translate(1,-1.99899)">
     <rect
        id="center1"
-       style="fill:#111928;opacity:0.75;fill-opacity:1"
+       style="fill:currentColor;opacity:0.75;fill-opacity:1"
        class="ColorScheme-Background"
        width="50"
        height="50"
@@ -244,7 +244,7 @@
      id="topleft"
      transform="translate(-182.00001,-232.99982)">
     <path
-       style="fill:#111928;opacity:0.75;fill-opacity:1"
+       style="fill:currentColor;opacity:0.75;fill-opacity:1"
        class="ColorScheme-Background"
        d="m 190.00001,251.99982 v 7 h -7 v -2 c 0,-2.77 2.23,-5 5,-5 z"
        id="path9" />
@@ -263,7 +263,7 @@
      id="left"
      transform="translate(-182.00001,-232.99982)">
     <path
-       style="fill:#111928;opacity:0.75;fill-opacity:1"
+       style="fill:currentColor;opacity:0.75;fill-opacity:1"
        class="ColorScheme-Background"
        d="m 183.00002,258.99981 v 50 l 7,10e-6 v -50 z"
        id="path11" />
@@ -282,7 +282,7 @@
      id="right"
      transform="translate(-182.00001,-232.99983)">
     <path
-       style="fill:#111928;opacity:0.75;fill-opacity:1"
+       style="fill:currentColor;opacity:0.75;fill-opacity:1"
        class="ColorScheme-Background"
        d="m 247,258.99982 v 50 l -7,10e-6 v -50 z"
        id="path13" />
@@ -301,7 +301,7 @@
      id="bottomleft"
      transform="translate(-182.00001,-232.99991)">
     <path
-       style="fill:#111928;opacity:0.75;fill-opacity:1"
+       style="fill:currentColor;opacity:0.75;fill-opacity:1"
        class="ColorScheme-Background"
        d="m 190.00001,315.99991 v -7 h -7 v 2 c 0,2.77 2.23,5 5,5 z"
        id="path15" />
@@ -320,7 +320,7 @@
      id="bottom"
      transform="translate(-182.00001,-232.99995)">
     <path
-       style="fill:#111928;opacity:0.75;fill-opacity:1"
+       style="fill:currentColor;opacity:0.75;fill-opacity:1"
        class="ColorScheme-Background"
        d="M 189.99998,315.99995 H 240 v -7 h -50.00001 z"
        id="path17" />
@@ -339,7 +339,7 @@
      id="bottomright"
      transform="translate(-182.00001,-232.99991)">
     <path
-       style="fill:#111928;opacity:0.75;fill-opacity:1"
+       style="fill:currentColor;opacity:0.75;fill-opacity:1"
        class="ColorScheme-Background"
        d="m 240,315.99991 v -7 h 7 v 2 c 0,2.77 -2.23,5 -5,5 z"
        id="path19" />
@@ -358,7 +358,7 @@
      id="topright"
      transform="translate(-182.00001,-232.99982)">
     <path
-       style="fill:#111928;opacity:0.75;fill-opacity:1"
+       style="fill:currentColor;opacity:0.75;fill-opacity:1"
        class="ColorScheme-Background"
        d="m 240,251.99982 v 7 h 7 v -2 c 0,-2.77 -2.23,-5 -5,-5 z"
        id="path21" />
@@ -377,7 +377,7 @@
      id="top"
      transform="translate(-182.00001,-232.99982)">
     <path
-       style="fill:#111928;opacity:0.75;fill-opacity:1"
+       style="fill:currentColor;opacity:0.75;fill-opacity:1"
        class="ColorScheme-Background"
        d="M 189.99998,251.99982 H 240 v 7 h -50.00001 z"
        id="path23" />
