@@ -9,11 +9,15 @@ Includes some work from Community Artists.
 
 ## How does it look
 
+### Lock Screen
+![lockscreen](lockscreen.png)
+
+### Splash Screen
 ![SplashScreen](look-and-feel/Glassy/contents/previews/splash.png)
 
+### Home
 ![DefaultHome](look-and-feel/Glassy/contents/previews/fullscreenpreview.jpg)
 
-![lockscreen](lockscreen.png)
 
 ## Installation
 
