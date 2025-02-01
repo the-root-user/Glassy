@@ -1,19 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
-      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
-  <kcfgfile name=""/>
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+        http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+    <kcfgfile name=""/>
 
-  <group name="General">
-    <entry name="alwaysShowClock" type="Bool">
-      <label>If true, the clock is shown even when the computer is idle and the password prompt is hidden.</label>
-      <default>true</default>
-    </entry>
-    <entry name="showMediaControls" type="Bool">
-      <label>If true, shows any currently playing media along with controls to pause it.</label>
-      <default>true</default>
-    </entry>
-  </group>
+    <group name="General">
+        <entry name="alwaysShowClock" type="Bool">
+            <label>If true, the clock is shown even when the computer is idle and the password prompt is hidden.</label>
+            <default>true</default>
+        </entry>
+        <entry name="showMediaControls" type="Bool">
+            <label>If true, shows any currently playing media along with controls to pause it.</label>
+            <default>true</default>
+        </entry>
+    </group>
+    <group name="Custom">
+        <entry name="opacity" type="String">
+            <label>Opacity of widgets</label>
+            <default>0.85</default>
+        </entry>
+        <entry name="accent_opacity" type="String">
+            <label>Opacity of accent color</label>
+            <default>0.15</default>
+        </entry>
+        <entry name="bg_color" type="String">
+            <label>Background color for widgets</label>
+            <default>#1a1b1e</default>
+        </entry>
+        <entry name="border_color" type="String">
+            <label>Color fir border</label>
+            <default>#2f3643</default>
+        </entry>
+        <entry name="accent_color" type="String">
+            <label>Accent color fir widgets</label>
+            <default>#6a9984</default>
+        </entry>
+    </group>
+    
 
 </kcfg>

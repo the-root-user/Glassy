@@ -15,14 +15,19 @@ Item {
         anchors.left: parent.left
         anchors.top: parent.top
         id: panel
-        color: "#111928"
+        color: config.bg_color || "#1a1b1e" // "#111928"
         radius: 20
         height: 34
-        opacity: 0.7
+        opacity: config.opacity
         border.width: 0.5
-        // border.color: "#ffffff1f"
-        border.color: "#2f3643"
-        // border.color: "#4a5059"
+        border.color: config.border_color || "#2f3643" // "#ffffff1f" // "#4a5059"
+        Rectangle {
+            anchors.fill: parent
+            radius: parent.radius
+            color: config.accent_color || "#6a9984"
+            // color: typeof Kirigami.Theme.highlightColor !== "undefined" && Kirigami.Theme.highlightColor !== "" ? Kirigami.Theme.highlightColor : config.accent_color || "#6a9984"
+            opacity:config.accent_opacity
+        }
     }
 
     ShaderEffectSource {

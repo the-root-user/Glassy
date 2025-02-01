@@ -22,7 +22,8 @@ import QtQml 2.8
 import QtQuick 2.8
 import QtQuick.Controls 1.1
 import QtQuick.Layouts 1.1
-import QtGraphicalEffects 1.0
+import org.kde.kirigami 2.7
+import QtGraphicalEffects 1.15
 
 import org.kde.plasma.core 2.0 as PlasmaCore
 import org.kde.plasma.components 2.0 as PlasmaComponents
@@ -293,18 +294,27 @@ PlasmaCore.ColorScope {
          Rectangle {
              // id: dialog
              id: formBg
-             color: "#111928"
+             color: config.bg_color || "#1a1b1e" // "#111928"
              radius: 40
              anchors.centerIn: parent
              anchors.verticalCenterOffset: -55
              height: 305
              width: 405
-             opacity: 0.7
+             opacity: config.opacity
              z:0
              border.width: 1
-             // border.color: "#ffffff1f"
-             border.color: "#2f3643"
-             // border.color: "#4a5059"
+             border.color: config.border_color || "#2f3643" // "#ffffff1f" // "#4a5059"
+             Rectangle {
+                 anchors.fill: parent
+                 radius: parent.radius
+                 color: config.accent_color || "#6a9984"
+                 // color: typeof Kirigami.Theme.highlightColor !== "undefined" && Kirigami.Theme.highlightColor !== "" ? Kirigami.Theme.highlightColor : config.accent_color || "#6a9984"
+                 opacity:config.accent_opacity
+             }
+             // Text {      // For testing
+             //    text: "Color: " + Kirigami.Theme.highlightColor
+             //    color: "#fff"
+             // }
          }
 
          ShaderEffectSource {

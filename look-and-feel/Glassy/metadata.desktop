@@ -9,12 +9,12 @@ Type=Service
 
 X-KDE-ServiceTypes=Plasma/LookAndFeel
 X-KDE-ParentApp=
-X-KDE-PluginInfo-Author=Signore
-X-KDE-PluginInfo-Category=
-X-KDE-PluginInfo-Email=
-X-KDE-PluginInfo-License=GPLv3
 X-KDE-PluginInfo-Name=Glassy
-X-KDE-PluginInfo-Version=20220623
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Author=Signore
+X-KDE-PluginInfo-Email=
+X-Plasma-DefaultLayoutFile=contents/layouts/plasma-org.kde.plasma.desktop-appletsrc
+X-KDE-PluginInfo-License=GPLv3
 X-KDE-PluginInfo-Website=https://github.com/the-root-user/
 X-KDE-fallbackPackage=org.kde.breeze.desktop
 X-Plasma-MainScript=defaults

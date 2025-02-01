@@ -25,35 +25,35 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][11][Applets][15][Configuration]
-PreloadWeight=30
+PreloadWeight=51
 
 [Containments][11][Applets][16]
 immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][11][Applets][16][Configuration]
-PreloadWeight=78
+PreloadWeight=92
 
 [Containments][11][Applets][18]
 immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][11][Applets][18][Configuration]
-PreloadWeight=73
+PreloadWeight=92
 
 [Containments][11][Applets][21]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][11][Applets][21][Configuration]
-PreloadWeight=60
+PreloadWeight=92
 
 [Containments][11][Applets][22]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][11][Applets][22][Configuration]
-PreloadWeight=65
+PreloadWeight=92
 
 [Containments][11][Applets][313]
 immutability=1
@@ -67,7 +67,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][11][Applets][319][Configuration]
-PreloadWeight=76
+PreloadWeight=92
 
 [Containments][11][Applets][319][Configuration][ConfigDialog]
 DialogHeight=570
@@ -88,14 +88,42 @@ immutability=1
 plugin=com.github.prayag2.controlcentre
 
 [Containments][11][Applets][332][Configuration]
-PreloadWeight=40
+PreloadWeight=92
 
 [Containments][11][Applets][333]
 immutability=1
 plugin=com.github.prayag2.relaxingsounds
 
 [Containments][11][Applets][333][Configuration]
-PreloadWeight=15
+PreloadWeight=0
+
+[Containments][11][Applets][334]
+immutability=1
+plugin=org.kde.plasma.keyboardindicator
+
+[Containments][11][Applets][334][Configuration]
+PreloadWeight=42
+
+[Containments][11][Applets][335]
+immutability=1
+plugin=org.kde.kalendar.contact
+
+[Containments][11][Applets][335][Configuration]
+PreloadWeight=42
+
+[Containments][11][Applets][337]
+immutability=1
+plugin=org.kde.plasma.nightcolorcontrol
+
+[Containments][11][Applets][337][Configuration]
+PreloadWeight=0
+
+[Containments][11][Applets][338]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][11][Applets][338][Configuration]
+PreloadWeight=0
 
 [Containments][11][Applets][38]
 immutability=1
@@ -119,9 +147,9 @@ DialogWidth=857
 PreloadWeight=42
 
 [Containments][11][General]
-extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.kupapplet,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.kscreen,org.kde.plasma.volume,org.kde.plasma.vault,com.github.prayag2.controlcentre,com.github.prayag2.relaxingsounds
+extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.kupapplet,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.kscreen,org.kde.plasma.volume,org.kde.plasma.vault,com.github.prayag2.controlcentre,com.github.prayag2.relaxingsounds,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.kalendar.contact
 hiddenItems=ibus-ui-gtk3,vlc,Plasma_microphone,blueman,org.kde.kalendar.contact,com.github.prayag2.relaxingsounds
-knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.mediacontroller_plus,org.kde.kupapplet,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.kscreen,org.kde.plasma.vault
+knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.mediacontroller_plus,org.kde.kupapplet,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.kscreen,org.kde.plasma.vault,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.kalendar.contact
 shownItems=org.kde.plasma.notifications,org.kde.plasma.bluetooth,com.github.prayag2.controlcentre
 
 [Containments][13]
@@ -151,7 +179,7 @@ immutability=1
 plugin=AndromedaLauncher
 
 [Containments][13][Applets][336][Configuration]
-PreloadWeight=83
+PreloadWeight=92
 
 [Containments][13][Applets][336][Configuration][ConfigDialog]
 DialogHeight=510
@@ -193,12 +221,11 @@ advanced=false
 alignmentUpgraded=true
 appletOrder=41;336
 backgroundAllCorners=true
-backgroundRadius=45
+backgroundRadius=48
 hoverAction=PreviewWindows
 iconSize=48
-inConfigureAppletsMode=true
 panelSize=100
-panelTransparency=65
+panelTransparency=70
 screenEdgeMargin=8
 shadowOpacity=30
 shadowSize=30
@@ -210,6 +237,7 @@ splitterPosition=1
 splitterPosition2=4
 tasksUpgraded=true
 themeColors=SmartThemeColors
+titleTooltips=false
 userBlocksColorizingApplets=336
 zoomLevel=0
 
@@ -302,11 +330,11 @@ backgroundRadius=8
 editBackgroundOpacity=0.6
 fittsLawIsRequested=false
 iconSize=320
-inConfigureAppletsMode=true
 isStickedOnBottomEdge=true
 lengthExtMargin=4
+panelOutline=true
 panelSize=100
-panelTransparency=75
+panelTransparency=70
 screenEdgeMargin=10
 shadowOpacity=30
 shadowsUpgraded=true
@@ -360,7 +388,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][4][Applets][10][Configuration]
-PreloadWeight=81
+PreloadWeight=92
 SystrayContainmentId=11
 
 [Containments][4][Applets][275]
@@ -377,6 +405,7 @@ DialogWidth=800
 [Containments][4][Applets][275][Configuration][General]
 bold=true
 noWindowText=Desktop      File      Edit      View      Go      Window      Help
+noWindowType=text
 textType=1
 
 [Containments][4][Applets][278]
@@ -384,7 +413,7 @@ immutability=1
 plugin=org.kde.plasma.bigSur-inlineBattery
 
 [Containments][4][Applets][278][Configuration]
-PreloadWeight=54
+PreloadWeight=40
 
 [Containments][4][Applets][278][Configuration][ConfigDialog]
 DialogHeight=620
@@ -404,7 +433,7 @@ immutability=1
 plugin=org.kde.plasma.betterinlineclock
 
 [Containments][4][Applets][285][Configuration]
-PreloadWeight=68
+PreloadWeight=92
 
 [Containments][4][Applets][285][Configuration][Appearance]
 customDateFormat=\sddd
@@ -434,27 +463,26 @@ DialogWidth=800
 
 [Containments][4][Applets][31]
 immutability=1
-plugin=com.github.zren.commandoutput
+plugin=org.kde.plasma.notes
 
 [Containments][4][Applets][31][Configuration]
-PreloadWeight=0
+PreloadWeight=97
 
 [Containments][4][Applets][31][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
+DialogHeight=570
+DialogWidth=760
 
 [Containments][4][Applets][31][Configuration][General]
-command=\nout_ping=$(ping -c 4 1.1.1.1 | tail -1 | awk '{print $4}'| cut -d '/' -f 2| cut -d '.' -f 1) && if [ "$out_ping" = "" ]; then  echo -n " Network Down     "; else  echo -n " Ping  $out_ping ms     ";fi; cpu_idle=$(top -b -n 1 | grep Cpu | awk '{print $8}'|cut -f 1 -d "."); cpu_use=$(expr 100 - $cpu_idle); if [ "$cpu_use" = "" ]; then cpu_use="0";fi; echo -n "  $cpu_use%     "; mem_used=$(free -m | grep "Mem" | awk '{print $3}'); echo -n "  $mem_used MB     "; out=$(sensors | grep CPU | cut -d '+' -f 2 | cut -d '.' -f 1); if [ $out -ge 80 ]; then echo "  $out°C  "; elif [ $out -ge 60 ]; then echo "  $out°C  "; else echo "  $out°C  ";fi; sh $HOME/battery_alert.sh
-fixedWidth=132
-fontSize=14
-textAlign=8
+color=translucent-light
+fontSize=12
+noteId=aaddffa8-abeb-40a8-8fe2-36a62e6445
 
 [Containments][4][Applets][316]
 immutability=1
 plugin=org.kde.latte.sidebarbutton
 
 [Containments][4][Applets][316][Configuration]
-PreloadWeight=40
+PreloadWeight=36
 
 [Containments][4][Applets][316][Configuration][ConfigDialog]
 DialogHeight=570
@@ -466,37 +494,32 @@ iconSource=view-list-compact
 [Containments][4][Applets][316][Shortcuts]
 global=Alt+Shift+M
 
-[Containments][4][Applets][325]
+[Containments][4][Applets][32]
 immutability=1
-plugin=org.kde.plasma.notes
+plugin=com.github.zren.commandoutput
 
-[Containments][4][Applets][325][Configuration]
-PreloadWeight=97
+[Containments][4][Applets][32][Configuration]
+PreloadWeight=0
 
-[Containments][4][Applets][325][Configuration][ConfigDialog]
-DialogHeight=570
-DialogWidth=760
+[Containments][4][Applets][32][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
 
-[Containments][4][Applets][325][Configuration][General]
-color=translucent-light
-fontSize=12
-noteId=aaddffa8-abeb-40a8-8fe2-36a62e6445
+[Containments][4][Applets][32][Configuration][General]
+command=\nout_ping=$(ping -c 4 1.1.1.1 | tail -1 | awk '{print $4}'| cut -d '/' -f 2| cut -d '.' -f 1) && if [ "$out_ping" = "" ]; then  echo -n "  Network Down     "; else  echo -n "  Ping  $out_ping ms     ";fi; cpu_idle=$(top -b -n 1 | grep Cpu | awk '{print $8}'|cut -f 1 -d "."); cpu_use=$(expr 100 - $cpu_idle); if [ "$cpu_use" = "" ]; then cpu_use="0";fi; echo -n "  $cpu_use%     "; mem_used=$(free -m | grep "Mem" | awk '{print $3}'); echo -n "  $mem_used MB     "; out=$(sensors | grep CPU | cut -d '+' -f 2 | cut -d '.' -f 1); if [ $out -ge 80 ]; then echo "  $out°C  "; elif [ $out -ge 60 ]; then echo "  $out°C  "; else echo "  $out°C  ";fi; sh $HOME/battery_alert.sh
+fixedWidth=132
+fontSize=14
+textAlign=2
 
-[Containments][4][Applets][329]
+[Containments][4][Applets][338]
 immutability=1
-plugin=org.kde.plasma.simplekickoff
+plugin=org.kde.plasma.kicker
 
-[Containments][4][Applets][329][Configuration]
-PreloadWeight=73
+[Containments][4][Applets][338][Configuration]
+PreloadWeight=92
 
-[Containments][4][Applets][329][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][4][Applets][329][Configuration][General]
+[Containments][4][Applets][338][Configuration][General]
 favoritesPortedToKAstats=true
-icon=pan-down-symbolic
-systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 
 [Containments][4][ConfigDialog]
 DialogHeight=909
@@ -509,29 +532,33 @@ PreloadWeight=0
 advanced=true
 alignment=10
 alignmentUpgraded=true
-appletOrder=329;275;30;31;10;278;285;316
+appletOrder=338;275;30;31;32;10;278;285;316
+appletShadowsEnabled=false
 autoDecreaseIconSize=false
+autoSizeEnabled=false
 backgroundAllCorners=true
 backgroundRadius=50
-disablePanelShadowForMaximized=true
+dragActiveWindowEnabled=true
 floatingGapIsMirrored=true
+floatingInternalGapIsForced=false
 hideFloatingGapForMaximized=true
-iconSize=22
+iconSize=24
 inConfigureAppletsMode=true
 lastWindowsVisibilityMode=6
 lengthExtMargin=5
 maxLength=99
 panelPosition=10
 panelSize=100
-panelTransparency=75
+panelTransparency=70
 screenEdgeMargin=4
 shadowOpacity=30
 shadowSize=20
 shadowsUpgraded=true
 shrinkThickMargins=true
 splitterPosition=4
-splitterPosition2=6
+splitterPosition2=7
 tasksUpgraded=true
+titleTooltips=false
 zoomLevel=0
 
 [Containments][4][Indicator]
@@ -554,9 +581,9 @@ reversed=true
 background=
 backgroundStyle=0
 color=darkgrey
-customBackground=
-customTextColor=333333
-icon=
+customBackground=/usr/share/plasma/shells/org.kde.latte.shell/contents/images/canvas/darkgreyprint.jpg
+customTextColor=#ffffff
+icon=topmenu-applet
 lastUsedActivity=eeb96c9e-42e8-45fb-989a-9996edc0b82f
 launchers=
 popUpMargin=-1

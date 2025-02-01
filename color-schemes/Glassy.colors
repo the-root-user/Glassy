@@ -105,6 +105,7 @@ ForegroundVisited=140,90,204
 [General]
 ColorScheme=Glassy
 Name=Glassy
+TintFactor=0.15
 TitlebarIsAccentColored=true
 shadeSortColumn=true
 
